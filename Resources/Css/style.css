@@ -110,6 +110,43 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Two images */
+
+.twoimages img {
+  width: 300px;
+  height: 200px;
+  margin: 0;
+  padding: 10px;
+}
+
+.twoimages {
+  width: 1000px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.twodescription {
+  width: 1000px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.twodescription p {
+  width: 300px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
