@@ -7,25 +7,28 @@ body {
 }
 
 /* header */
-.header {
+#header {
   height: 69px;
   width: 1200px;
   display: flex;
   border-bottom: 1px solid seashell;
+  background-color: black;
   align-items: center;
+  position: fixed;
+  margin: 0;
 }
 
-.header img {
+#header img {
   max-height: 50px;
   padding: 10px;
 }
-.header a {
+#header a {
   color: seashell;
   text-decoration: underline;
   padding: 10px;
 }
 
-.header .headerlinks {
+#header .headerlinks {
   display: flex;
   flex: 2 2 150px;
   justify-content: flex-end;
@@ -40,10 +43,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
-#Mission {
+.Mission {
   background-color: black;
   opacity: 0.9;
-  height: 100px;
+  height: auto;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 5px;
 }
