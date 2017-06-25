@@ -148,5 +148,52 @@ body {
   display: flex;
   justify-content: center;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
+}
+
+/* Locations */
+
+.locations {
+  height: 500px;
+  width: 1200px;
+  background-image: url(../Images/img-locations-background.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#locations-header {
+
+}
+
+.downtown {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+}
+
+.EBayside {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+}
+
+.Oakdale {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+  justify-content: center;
 }
