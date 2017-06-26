@@ -197,3 +197,19 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+/*Contact Information */
+
+.Contact-info {
+  height: 200px;
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Footer */
+
+.footer {
+  margin-left: 20px;
+  text-align: left;
+}
