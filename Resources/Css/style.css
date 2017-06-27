@@ -9,13 +9,13 @@ body {
 /* header */
 #header {
   height: 69px;
-  width: 1200px;
+  width: 1400px;
   display: flex;
   border-bottom: 1px solid seashell;
   background-color: black;
   align-items: center;
   position: fixed;
-  margin: 0;
+  margin: 0 auto;
   z-index: 20;
   top: 0px;
 }
@@ -38,6 +38,11 @@ body {
 }
 
 /* Main */
+
+.Maincontainer {
+  width: 1200px;
+  margin: 0 auto;
+}
 
 .Container {
   background-image: url(../Images/img-mission-background.jpg);
@@ -80,6 +85,10 @@ body {
 }
 
 /* Three images */
+
+.Teamonth {
+  width: 1200px;
+}
 
 .threeimages img {
   width: 300px;
@@ -158,17 +167,18 @@ body {
   width: 1200px;
   background-image: url(../Images/img-locations-background.jpg);
   display: flex;
+  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .locations-header {
   width: 1000px;
-  height: auto;
+  height: 75px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  margin-bottom: 15px;
 }
 
 .downtown {
@@ -180,7 +190,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-right: 40px;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
 .EBayside {
@@ -192,7 +202,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-right: 40px;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
 .Oakdale {
@@ -203,7 +213,7 @@ body {
   flex-flow: wrap column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
 /*Contact Information */
